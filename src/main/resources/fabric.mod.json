@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "durabilityglow",
+  "version": "1.0.0",
+  "name": "Durability Glow",
+  "description": "Colors every player's nametag by the condition of their armor: green when fresh, red when close to breaking.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": ["durabilityglow.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21"
+  }
+}
